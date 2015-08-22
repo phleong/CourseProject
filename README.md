@@ -7,5 +7,5 @@ This folder contains the following two files:
  * The output of the script is a file called "new_data.txt" that contains the average values of the mean and standard deviation of the different types of measurements available in the original dataset (both training and test). 
  * For each type of measurement, the dataset contains the average data from each of 30 subjects doing each of 6 different activities.
 * codebook.md
- * This file contains the details of the manipulations done in the run_script.r to clean the original dataset and the information of the variables generated when running run_script.r.
+ * This file contains the details of the manipulations done in the R script run_script.r to clean the original dataset and the information of the variables generated when running run_script.r.
 
