@@ -25,8 +25,7 @@ extract_set <- merged_set[, extract_column]
 
 ## 3. Use descriptive activity labels to name the activities
 activity <- read.table("UCI HAR Dataset/activity_labels.txt")
-descriptive_label <- activity[merged_label[, 1], 2]
-merged_label[, 1] <- descriptive_label
+merged_label[, 1] <- activity[merged_label[, 1], 2]
 
 ## 4. Label the data set with descriptive variable names
 features_name <- gsub("\\(\\)", "", features[extract_column,2]) # Remove "()" 
